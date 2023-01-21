@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#card .background-style{
+    position: absolute;
+    background-image: linear-gradient(to right, rgb(252 173 63), rgb(249 57 62));
+    width: 100%;
+    height: 100%;
+}
+
+#card .background-style .box-class{
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to right, rgb(250 118 59), rgb(249 61 57));
+    border-radius: 20px;
+    position: relative;
+    left: 20%;
+    top: 30%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#card .background-style .words-class{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    top: 25%;
+    left: 25%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+}
+
+#card .background-style .words-class .left-part{
+    flex: 1;
+}
+
+#card .background-style .words-class .right-part{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    
+}
+
+#card .background-style .words-class .right-part span{
+    color: rgb(155 155 155);
+}
+
+#card .background-style .words-class .right-part h2{
+    margin-top: 20px;
+}
+
+#card .background-style .words-class .right-part p{
+    margin-top: 20px;
+    color: rgb(155 155 155);
+    overflow-y: scroll;
+    width: 90%;
+    height: 20%;
+}
+
+#card .background-style .words-class .right-part p::-webkit-scrollbar{
+    width: 8px;
+    border: none;
+}
+
+#card .background-style .words-class .right-part p::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to top, rgb(250 118 59), rgb(249 61 57));
+}
+
+#card .background-style .words-class .right-part p::-webkit-scrollbar-thumb:hover{
+    background-image: linear-gradient(to bottom, rgb(250 118 59), rgb(249 61 57));
+}
+
+#card .background-style .words-class .right-part button{
+    background-image: linear-gradient(to right, rgb(250 118 59), rgb(249 61 57));
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    padding: 10px 30px;
+}
+
+#card .background-style .words-class .right-part button:hover{
+    background-image: linear-gradient(to right, rgb(249 61 57), rgb(250 118 59));
+    color: white;
+    border-radius: 10px;
+    border: none;
+    border-radius: 20px;
+}
